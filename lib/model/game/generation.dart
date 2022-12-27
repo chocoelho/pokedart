@@ -24,7 +24,7 @@ class Generation {
 
   Generation.fromJson(Map<String, dynamic> json) {
     if (json['abilities'] != null) {
-      abilities = <Null>[] as List<NamedAPIResource>?;
+      abilities = <NamedAPIResource>[];
     }
     if (json['types'] != null) {
       types =  <NamedAPIResource>[];
